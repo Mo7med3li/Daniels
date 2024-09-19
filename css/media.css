@@ -1,0 +1,115 @@
+:root{
+  --char-lg-width:29.5px;
+  --char-xl-width:31px;
+  --char-md-width:25px
+}
+@media (min-width: 576px) {  }
+
+@media (min-width: 768px) {
+  /* .head span{
+    margin-bottom: 40px;
+    margin-left: 4px;
+  } */
+  @keyframes design {
+    0%,25%,50%,75%{
+      width: 0;
+    }
+    12.5%{
+      width: calc(var(--char-md-width) * 8 );
+    }
+  
+    
+  }
+  @keyframes develop {
+    0%,25%,50%,75%{
+      width: 0%;
+    }
+    37.5%{
+      width: calc(var(--char-md-width) * 9 );
+    }
+    
+  }
+ 
+ @keyframes larry {
+  0%,25%,50%,80%{
+    width: 0%;
+  }
+  62.5%{
+    width: calc(var(--char-md-width) * 12  );
+  }
+  
+}
+}
+
+@media (min-width: 992px) { 
+  /* .head span{
+    margin-bottom: 40px;
+    margin-left: 5px;
+  } */
+  @keyframes design {
+    0%,25%,50%,75%{
+      width: 0;
+    }
+    12.5%{
+      width: calc(var(--char-lg-width) * 8 );
+    }
+  
+    
+  }
+  @keyframes develop {
+    0%,25%,50%,75%{
+      width: 0%;
+    }
+    37.5%{
+      width: calc(var(--char-lg-width)  * 9 );
+    }
+    
+  }
+  @keyframes larry {
+    0%,25%,50%,80%{
+      width: 0%;
+    }
+    62.5%{
+      width: calc(var(--char-lg-width) * 12  );
+    }
+    
+  }
+ }
+
+
+@media (min-width: 1200px) { 
+  @keyframes design {
+    0%,25%,50%,75%{
+      width: 0;
+    }
+    12.5%{
+      width: calc(var(--char-xl-width) * 8 );
+    }
+  
+    
+  }
+  @keyframes develop {
+    0%,25%,50%,75%{
+      width: 0%;
+    }
+    37.5%{
+      width: calc(var(--char-xl-width)  * 9 );
+    }
+    
+  }
+  @keyframes larry {
+    0%,25%,50%,80%{
+      width: 0%;
+    }
+    62.5%{
+      width: calc(var(--char-xl-width) * 12  );
+    }
+    
+  }
+  /* .head span{
+    margin-bottom: 39px;
+    margin-left: 3px;
+  } */
+ }
+
+@media (min-width: 1400px) {  }
